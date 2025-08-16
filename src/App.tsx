@@ -324,7 +324,7 @@ export default function App() {
             <span>{t("footer.support")}</span>
           </a>
           <a
-            href="https://github.com/your/repo"
+            href="https://github.com/darceno/klocking"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1 hover:text-zinc-600 dark:hover:bg-zinc-800 dark:hover:text-zinc-300"
