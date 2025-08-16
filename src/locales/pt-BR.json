@@ -1,0 +1,182 @@
+{
+  "app": { "tagline": "Um rastreador de tempo simples e local" },
+
+  "menu": {
+    "menu": "Menu",
+    "export": "Exportar dados",
+    "import": "Importar dados",
+    "resetAll": "Resetar tudo"
+  },
+
+  "labels": { "untracked": "Passado (sem dados)", "future": "Futuro" },
+
+  "console": {
+    "title": "Console",
+    "noActive": "Sem sessão ativa",
+    "stop": "Parar",
+    "lastActivity": "Última atividade",
+    "addActivityTime": "Adicionar tempo"
+  },
+
+  "actions": {
+    "filterTooltip": "Mostrar/ocultar itens no gráfico",
+    "switchToDark": "Mudar para modo escuro",
+    "switchToLight": "Mudar para modo claro",
+    "settings": "Configurações",
+    "manageActivities": "Gerenciar atividades",
+    "dragToReorder": "Arraste para reordenar"
+  },
+
+  "range": { "day": "Dia", "week": "Semana", "month": "Mês", "year": "Ano", "life": "Vida" },
+
+  "date": { "today": "Hoje", "since": "Desde {{date}}" },
+
+  "chart": { "totalTracked": "Total rastreado", "totalTime": "Tempo total" },
+
+  "dialogs": {
+    "confirm": "Confirmar",
+    "notice": "Aviso",
+    "noLastTitle": "Sem última atividade",
+    "noLastBody": "Você ainda não rastreou nada. Clique em uma atividade acima para começar.",
+    "noActivitiesTitle": "Sem atividades",
+    "noActivitiesBody": "Adicione uma atividade primeiro.",
+    "sessionRunningTitle": "Sessão em andamento",
+    "sessionRunningBody": "Pare a sessão atual desta atividade antes de editar seu total.",
+    "futureDayTitle": "Dia no futuro",
+    "futureDayBody": "Você não pode editar o futuro. Ao invés disso, clique no Passado.",
+    "notEditableTitle": "Não editável aqui",
+    "notEditableBody": "Você precisa escolher um dia específico para editar tempos totais. Mude para o modo Dia para fazer isso.",
+    "invalidFileTitle": "Arquivo inválido",
+    "invalidFileBody": "Esse JSON não parece uma exportação do Klocking.",
+    "parseErrTitle": "Não foi possível ler",
+    "parseErrBody": "O conteúdo do arquivo não é um JSON válido.",
+    "resetAllTitle": "Resetar todos os dados?",
+    "resetAllBody": "Isso remove todas as atividades e dados. Não pode ser desfeito.",
+    "deleteActTitle": "Excluir atividade?",
+    "deleteActBody": "Isso removerá a atividade e todo seu histórico.",
+    "futureNotAllowedTitle": "Futuro não permitido",
+    "futureNotAllowedBody": "A data inicial não pode estar no futuro.",
+    "invalidDateTitle": "Data inválida",
+    "invalidDateBody": "Use uma data válida em {{pattern}}.",
+    "ok": "OK",
+    "apply": "Aplicar",
+    "cancel": "Cancelar",
+    "confirmBtn": "Confirmar",
+    "resetBtn": "Resetar",
+    "deleteBtn": "Excluir"
+  },
+
+  "oneTab": {
+    "blockTitle": "Uso em outra aba detectado",
+    "blockBody": "O Klocking só funciona em uma aba por vez para evitar conflitos de dados. Mude para a outra aba ou recarregue esta para torná-la a principal.",
+    "reload": "Recarregar esta"
+  },
+
+  "footer": {
+    "backups": "Sempre faça backups.",
+    "support": "Doar",
+    "about": "Sobre" },
+
+  "settings": {
+    "title": "Configurações",
+    "lang": "Escolha um idioma",
+    "lang_en": "English",
+    "lang_pt": "Português (Brasil)",
+    "mdy": "Usar formatação mm/dd/aaaa",
+    "minutes": "Mostrar tempo em minutos",
+    "percentTooltip": "Mostrar porcentagem no tooltip do gráfico",
+    "apply": "Aplicar",
+    "cancel": "Cancelar"
+  },
+
+  "manage": {
+    "title": "Gerenciar atividades",
+    "empty": "Ainda não há atividades.",
+    "edit": "Editar",
+    "archive": "Arquivar",
+    "unarchive": "Desarquivar",
+    "delete": "Excluir"
+  },
+
+  "filter": {
+    "title": "Filtrar atividades no gráfico",
+    "special": "Especiais",
+    "activities": "Atividades"
+  },
+
+  "addActivity": {
+    "title": "Adicionar atividade",
+    "name": "Nome",
+    "color": "Cor",
+    "add": "Adicionar",
+    "placeholder": "ex.: Escrita"
+  },
+
+  "addTime": {
+    "title": "Adicionar tempo para uma atividade",
+    "activity": "Atividade",
+    "hours": "Horas",
+    "minutes": "Minutos",
+    "note": "O tempo será adicionado a {{day}}, limitado ao tempo passado disponível.",
+    "today": "hoje",
+    "unallocated": "Não alocado hoje",
+    "add": "Adicionar tempo"
+  },
+
+  "editTotal": {
+    "title": "Editar tempo total de {{name}}",
+    "lead": "Defina o tempo total registrado para <1>{{name}}</1> neste dia.",
+    "hours": "Horas",
+    "minutes": "Minutos",
+    "current": "Atual",
+    "unallocatedToday": "Não alocado hoje",
+    "apply": "Aplicar"
+  },
+
+  "editActivity": {
+    "title": "Editar atividade",
+    "name": "Nome",
+    "color": "Cor",
+    "save": "Salvar"
+  },
+
+  "fromUntracked": {
+    "title": "Editar tempo total de uma atividade",
+    "lead": "Escolha uma atividade e defina seu tempo total registrado neste dia.",
+    "activity": "Atividade",
+    "hours": "Horas",
+    "minutes": "Minutos",
+    "currentForDay": "Atual no dia",
+    "unallocatedToday": "Não alocado hoje",
+    "apply": "Aplicar"
+  },
+
+  "life": {
+    "title": "Selecionar a data inicial",
+    "label": "Data inicial ({{pattern}})",
+    "help": "O modo Vida mostra todos os registros desta data até hoje."
+  },
+
+  "calendar": { "label": "Calendário" },
+
+  "toast": { "cappedPast": "Limitado a {{amount}} disponível no passado" },
+
+  "about": {
+    "title": "Sobre o Klocking",
+    "backButton": "Voltar para o app",
+    "madeBy": "Feito por <0>John Darceno</0>.",
+    "lineOne": "Klocking é um rastreador de tempo privado, gratuito e de código aberto.",
+    "lineTwo": "Eu o criei para aumentar minha ciência sobre como realmente vivo minha vida.",
+    "lineThree": "Existem muitos aplicativos de time-tracking por aí, mas a grande maioria:",
+    "list": [
+      "São feitos exclusivamente para mobile",
+      "Armazenam seus dados na nuvem sob políticas de privacidade questionáveis",
+      "Coletam informações demais para um simples app",
+      "São complexos ou bagunçados demais, eu não preciso de tantas features"
+    ],
+    "lineFour": "O Klocking usa localStorage, o que significa que todos os dados que você cria ficam salvos localmente no seu navegador. Apenas o seu próprio dispositivo tem acesso a eles.",
+    "lineFive": "Como não há backend para manter, eu não preciso pagar por servidores, o que mantém o custo baixo e me permite oferecê-lo completamente de graça. Pretendo mantê-lo online por tempo indefinido.",
+    "lineSix": "(E se algum dia eu não puder mais hospedar o app, vou tentar transformá-lo em um aplicativo desktop antes. O código também está público no GitHub.)",
+    "lineSeven": "Só mantenha em mente que: você é o único responsável pelos seus dados. Se trocar de navegador ou limpar o cache, pode acabar perdendo tudo — então use o recurso de Exportar regularmente para fazer backups."
+  }
+}

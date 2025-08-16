@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+input[type="checkbox"] { accent-color: oklch(0.59 0.19 275); }
+.dark input[type="checkbox"] { accent-color: oklch(0.75 0.18 275); }
+
+
+:root { color-scheme: light; }
+:root.dark { color-scheme: dark; }

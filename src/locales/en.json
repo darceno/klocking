@@ -1,0 +1,189 @@
+{
+  "app": {
+    "tagline": "A simple, local time tracker"
+  },
+
+  "menu": {
+    "menu": "Menu",
+    "export": "Export data",
+    "import": "Import data",
+    "resetAll": "Reset all"
+  },
+
+  "labels": {
+    "untracked": "Past (Untracked)",
+    "future": "Future"
+  },
+
+  "console": {
+    "title": "Console",
+    "noActive": "No active session",
+    "stop": "Stop",
+    "lastActivity": "Last activity",
+    "addActivityTime": "Add activity time"
+  },
+
+  "actions": {
+    "filterTooltip": "Show/hide items in the chart",
+    "switchToDark": "Switch to dark mode",
+    "switchToLight": "Switch to light mode",
+    "settings": "Settings",
+    "manageActivities": "Manage activities",
+    "dragToReorder": "Drag to reorder"
+  },
+
+  "range": { "day": "Day", "week": "Week", "month": "Month", "year": "Year", "life": "Life" },
+
+  "date": { "today": "Today", "since": "Since {{date}}" },
+
+  "chart": { "totalTracked": "Total tracked", "totalTime": "Total time" },
+
+  "dialogs": {
+    "confirm": "Confirm",
+    "notice": "Notice",
+    "noLastTitle": "No last activity",
+    "noLastBody": "You haven’t tracked anything yet. Click an activity above to start.",
+    "noActivitiesTitle": "No activities",
+    "noActivitiesBody": "Add an activity first.",
+    "sessionRunningTitle": "Session running",
+    "sessionRunningBody": "Stop the current session of this activity before editing its total.",
+    "futureDayTitle": "Future day",
+    "futureDayBody": "You can't edit the future. Click on Past instead.",
+    "notEditableTitle": "Not editable here",
+    "notEditableBody": "You have to choose a specific day to edit totals. Switch to Day view to do so.",
+    "invalidFileTitle": "Invalid file",
+    "invalidFileBody": "That JSON doesn't look like a Klocking export.",
+    "parseErrTitle": "Could not parse",
+    "parseErrBody": "The file contents are not valid JSON.",
+    "resetAllTitle": "Reset all data?",
+    "resetAllBody": "This removes all activities and data. This cannot be undone.",
+    "deleteActTitle": "Delete activity?",
+    "deleteActBody": "This will remove the activity and all its history.",
+    "futureNotAllowedTitle": "Future not allowed",
+    "futureNotAllowedBody": "The starting date cannot be in the future.",
+    "invalidDateTitle": "Invalid date",
+    "invalidDateBody": "Use a valid date in {{pattern}}.",
+    "ok": "OK",
+    "apply": "Apply",
+    "cancel": "Cancel",
+    "confirmBtn": "Confirm",
+    "resetBtn": "Reset",
+    "deleteBtn": "Delete"
+  },
+
+  "oneTab": {
+    "blockTitle": "Usage in another tab detected",
+    "blockBody": "Klocking works in a single tab at a time to prevent data conflicts. Switch to the other tab, or reload this one to take over.",
+    "reload": "Reload & take over"
+  },
+
+  "footer": {
+    "backups": "Always make backups.",
+    "support": "Support",
+    "about": "About" },
+
+  "settings": {
+    "title": "Settings",
+    "lang": "Choose a language",
+    "lang_en": "English",
+    "lang_pt": "Português (Brasil)",
+    "mdy": "Use mm/dd/yyyy formatting",
+    "minutes": "Show time in minutes",
+    "percentTooltip": "Show percentage on the graph tooltip",
+    "apply": "Apply",
+    "cancel": "Cancel"
+  },
+
+  "manage": {
+    "title": "Manage activities",
+    "empty": "No activities yet.",
+    "edit": "Edit",
+    "archive": "Archive",
+    "unarchive": "Unarchive",
+    "delete": "Delete"
+  },
+
+  "filter": {
+    "title": "Filter activities in chart",
+    "special": "Special",
+    "activities": "Activities"
+  },
+
+  "addActivity": {
+    "title": "Add activity",
+    "name": "Name",
+    "color": "Color",
+    "add": "Add",
+    "placeholder": "e.g., Writing"
+  },
+
+  "addTime": {
+    "title": "Add activity time to today",
+    "activity": "Activity",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "note": "Time will be added to {{day}}, clamped to the available past time.",
+    "today": "today",
+    "unallocated": "Unallocated today",
+    "add": "Add time"
+  },
+
+  "editTotal": {
+    "title": "Edit total time for {{name}}",
+    "lead": "Set the total recorded time for <1>{{name}}</1> within this day.",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "current": "Current",
+    "unallocatedToday": "Unallocated today",
+    "apply": "Apply"
+  },
+
+  "editActivity": {
+    "title": "Edit activity",
+    "name": "Name",
+    "color": "Color",
+    "save": "Save"
+  },
+
+  "fromUntracked": {
+    "title": "Edit total time for an activity",
+    "lead": "Choose an activity and set its total recorded time within this day.",
+    "activity": "Activity",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "currentForDay": "Current for day",
+    "unallocatedToday": "Unallocated today",
+    "apply": "Apply"
+  },
+
+  "life": {
+    "title": "Select the starting date",
+    "label": "Starting date ({{pattern}})",
+    "help": "Life mode shows all data from this date up to today."
+  },
+
+  "calendar": { "label": "Calendar" },
+
+  "toast": {
+    "cappedPast": "Capped to {{amount}} available in past"
+  },
+
+  "about": {
+    "title": "About Klocking",
+    "backButton": "Back to app",
+    "madeBy": "Made by <0>John Darceno</0>.",
+    "lineOne": "Klocking is a private, free, and open source time tracker.",
+    "lineTwo": "I built it to improve my awareness of how I actually spend my life.",
+    "lineThree": "There are plenty of time-tracking apps out there, but the vast majority:",
+    "list": [
+      "Are designed exclusively for mobile",
+      "Store your data in the cloud under questionable privacy policies",
+      "Collect too much information for a simple app",
+      "Are overly complex or cluttered, I don’t need that many features"
+    ],
+    "lineFour": "Klocking uses localStorage, which means all data you create stays local inside your browser. No one but your own device has access to it, and no one else can control it.",
+    "lineFive": "Because there’s no backend to maintain, I don’t have to pay for servers, which keeps costs low and allows me to offer it completely free. I plan to keep it online indefinitely.",
+    "lineSix": "(And if someday I can’t host it anymore, I’ll try to turn it into a desktop app first. The source code is also public on GitHub.)",
+    "lineSeven": "Just keep in mind: you’re the only one responsible for your data. If you switch browsers or clear your cache, you might lose everything — so make sure to use the Export feature regularly to back it up."
+  }
+}
