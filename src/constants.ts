@@ -1,6 +1,5 @@
 export const PALETTE = [
-  "#4f46e5", "#22c55e", "#eab308", "#06b6d4", "#f97316",
-  "#a855f7", "#10b981", "#ef4444", "#14b8a6", "#0ea5e9",
+  "#FA5053", "#FF7518", "#FBEC5D", "#50C878", "#2E8B57", "#069494", "#2D68C4", "#9C51B6", "#F2BDCD", "#F88379", "#2C2C2CFF"
 ];
 
 export const META_COLORS = {
